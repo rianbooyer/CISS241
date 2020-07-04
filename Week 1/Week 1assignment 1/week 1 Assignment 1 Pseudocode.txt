@@ -1,0 +1,7 @@
+
+Display "What is the room's width?"
+input width
+Display "What is the room's length?"
+input length
+area = width x length
+Display Area

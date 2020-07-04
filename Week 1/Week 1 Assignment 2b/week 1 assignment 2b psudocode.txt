@@ -1,0 +1,12 @@
+
+Display "What Is The Starting Balance? "
+input startingBalance
+Display "What are the total of all deposits made? "
+input deposits
+Display "What is the total of all withdrawals? "
+input withdrawals
+Display "What is the interest rate of the account? "
+input interestRate
+IntrestRatePercentage = IntrestRate / 100
+newBalance = (startingBalance + Deposits - withdrawals) * (InterestRatePercentage +1)
+display newBalance

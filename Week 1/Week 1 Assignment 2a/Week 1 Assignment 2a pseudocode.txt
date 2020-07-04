@@ -1,0 +1,11 @@
+
+Display "What is the price of the item?"
+Input Price
+Display "What is the sales tax rate percentage?"
+Input salesTaxPercentage
+Sales Tax = (Sales Tax Percentage / 100) x price
+Display "Sales Tax Ammount: $"
+display salesTax
+Total = ((sales tax percentage / 100) + 1) x price
+Display "Your Total is: ?"
+Display Total
